@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="CSS/homepage.css">
+
+  <link rel="stylesheet" href="scripts/flexSlider/flexslider.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="scripts/flexSlider/jquery.flexslider.js"></script>
+  <script type="text/javascript" charset="utf-8">
+   $(function() {
+    $(".flexslider").flexslider({
+    slideshowSpeed: 5000, //展示???隔ms
+    animationSpeed: 500, //????ms
+    touch: true //是否支持触屏滑?
+    });
+   });  
+  </script>
+
+  <title>Homepage</title>
+</head>
+
+<body class="bg">
+
+<table class="login">
+  <tr>
+    <td>
+      <img src="img/1.jpg" height="100" width="170">
+    </td>
+  </tr>
+  
+  <td>
+  <table border="1" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td>
+        User Name: <INPUT TYPE="TEXT" Size=25 name="firstName"><BR>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Password: <INPUT TYPE="TEXT" Size=25 name="LastName"><BR>
+      </td>
+    </tr>
+  </table>
+  </td>
+
+  <td>
+  <table border="1" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td width="260" valign="top">
+        <input type="submit" value="Submit">
+      </td>
+      
+      <td width="260" valign="top"> 
+        <a href="forgotPassword.html" style="font-size: 12px">Forget Password</a>
+      </td>
+    </tr>
+  </table>
+  </td>
+
+  <td>
+  <div class="flexslider" style="width:350px; margin-left:100px;">
+    <ul class="slides">
+        <li><img src="img/8.jpg" height="250" width="450"></li>
+        <li><img src="img/9.jpg" height="250" width="450"></li>
+        <li><img src="img/10.jpg" height="250" width="450"></li>
+    </ul>
+  </div>
+  </td>
+</table>
+
+  <center>
+    FaceBook
+    <a href="https://www.facebook.com/post.gov.tw/">HERE</a>.
+  </center> 
+
+  <center> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LbO3kead6wU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </center>
+
+</body>
+</html>
