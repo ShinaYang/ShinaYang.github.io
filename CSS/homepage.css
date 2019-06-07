@@ -1,4 +1,4 @@
-.bg{
+.bg {
 	background-color: #1B5E20;
 }
 
@@ -19,3 +19,23 @@
 	
 }
 	
+#facebook {
+	color: white;
+}
+
+.tb {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	padding: 20px;
+
+	border-width: 16px;
+	border-style: solid;
+	border-image: url(../img/plaid.jpg) 30 round;
+	
+	background-color: #FFF8E1;
+	
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="CSS/service.css">
+  <link rel="stylesheet" type="text/css" href="CSS/maps.css">
+
+  <link rel="stylesheet" href="scripts/flexSlider/flexslider.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="scripts/flexSlider/jquery.flexslider.js"></script>
+  <script type="text/javascript" charset="utf-8">
+   $(function() {
+    $(".flexslider").flexslider({
+    slideshowSpeed: 5000, //®i¥Ü???¹jms
+    animationSpeed: 500, //????ms
+    touch: true //¬O§_¤ä«ùàD«Ì·Æ?
+    });
+   });  
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVjBHZIa8GiRfM0POKGlRfF3QLiOJ0k5g&libraries=places&callback=initMap" async defer></script>
+  <script type="text/javascript" src="scripts/maps.js"></script>
+
+  <title>Service</title>
+</head>
+
+<body class="bg">
+
+    <div class="banner">
+	   <img class="banner-image" src="img/banner.jpg">
+    </div>
+
+    <div>
+        <table class="tb section2">
+            <tr>
+              <td> <a href="https://ipost.post.gov.tw/pst/home.html"><img src="img/iPost.jpg" alt="iPost"></a> </td>
+              <td> <a href="https://webatm.post.gov.tw/postatm/index1.jsp"><img src="img/WebATM.jpg" alt="WebATM"></a> </td>
+            </tr>
+
+            <tr class="tr-tall">
+              <td> iPost </td>
+              <td> iATM </td>
+            </tr>
+            <tr>
+                <td><a href="http://museum.post.gov.tw/post/Postal_Museum/museum/default.jsp"><img src="img/museum.jpg" alt="museum"></a>
+                </td>
+                <td> <a href="https://www.postmall.com.tw/"><img src="img/Postmall.jpg" alt="Postmall"></a> </td>
+            </tr>
+                
+            <tr class="tr-tall">
+                <td>museum </td>
+                <td>post mall</td>
+            </tr>
+            <tr>
+              <td> <a href="https://www.postmall.com.tw/postShopIndex.aspx"><img src="img/postshop.jpg" alt="postshop"></a> </td>
+              <td> <a href="delivery.html"><img src="img/search_mail.jpg" alt="package" height="90" width="90"> </td>
+            </tr>
+
+            <tr>
+              <td>online shop</td>
+              <td>package <input type="button" value="Order Information" onClick="window.open('all.html')"> </td>
+            </tr>
+
+        </table>
+
+
+        <div class="section2">
+            <div>
+                <div id="findhotels">
+                    Find post office in:
+                </div>
+
+                <div id="locationField">
+                    <input id="autocomplete" placeholder="Enter a city" type="text" />
+                </div>
+
+                <div id="controls">
+                    <select id="country">
+                      <option value="all">All</option>
+                      <option value="au">Australia</option>
+                      <option value="br">Brazil</option>
+                      <option value="ca">Canada</option>
+                      <option value="fr">France</option>
+                      <option value="de">Germany</option>
+                      <option value="mx">Mexico</option>
+                      <option value="nz">New Zealand</option>
+                      <option value="it">Italy</option>
+                      <option value="za">South Africa</option>
+                      <option value="es">Spain</option>
+                      <option value="pt">Portugal</option>
+                      <option value="us">U.S.A.</option>
+                      <option value="uk">United Kingdom</option>
+                      <option value="tw" selected>Taiwan</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div>
+                <div id="map"></div>
+
+                <div id="listing">
+                    <table id="resultsTable">
+                      <tbody id="results"></tbody>
+                    </table>
+                </div>
+
+                <div style="display: none">
+                    <div id="info-content">
+                      <table>
+                        <tr id="iw-url-row" class="iw_table_row">
+                          <td id="iw-icon" class="iw_table_icon"></td>
+                          <td id="iw-url"></td>
+                        </tr>
+                        <tr id="iw-address-row" class="iw_table_row">
+                          <td class="iw_attribute_name">Address:</td>
+                          <td id="iw-address"></td>
+                        </tr>
+                        <tr id="iw-phone-row" class="iw_table_row">
+                          <td class="iw_attribute_name">Telephone:</td>
+                          <td id="iw-phone"></td>
+                        </tr>
+                        <tr id="iw-rating-row" class="iw_table_row">
+                          <td class="iw_attribute_name">Rating:</td>
+                          <td id="iw-rating"></td>
+                        </tr>
+                        <tr id="iw-website-row" class="iw_table_row">
+                          <td class="iw_attribute_name">Website:</td>
+                          <td id="iw-website"></td>
+                        </tr>
+                      </table>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        
+       <!--  <div class="section2">
+            
+        </div> -->
+    </div>
+    
+    
+
+    
+
+
+  <center id="facebook">
+    <a href="https://www.post.gov.tw/post/internet/Customer_service/index.jsp?ID=160101">Hot Line</a>.      
+    <a href="https://www.post.gov.tw/post/internet/Customer_service/index.jsp?ID=160202">FAQ</a>.
+    <a href="https://www.post.gov.tw/post/internet/Customer_service/index.jsp?ID=1603">Mail Box</a>.
+  </center>
+
+
+</body>
+</html>
