@@ -6,7 +6,7 @@
 }
 #map {
   height: 450px;
-  width: 650px;
+  width: 800px;
   overflow: auto;
   display: inline-block;
 }
@@ -18,7 +18,7 @@ table {
 #listing {
   /*position: absolute;*/
   display: inline-block;
-  width: 240px;
+  width: 200px;
   height: 450px;
   overflow: auto;
   /*left: 442px;*/
